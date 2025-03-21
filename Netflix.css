@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+* a{
+    color: white;
+    text-decoration: none;
+    
+}
+body{
+    background-color: black;
+}
+
+.mainNetflixContainer {
+    /*border: 2px solid red;*/
+   /* padding:  0rem 2rem ;*/
+
+    
+}
+
+.backgroundimageContiner{
+    background-image: url(netflixBaclground\ Image.jpg);
+    filter: blur(15px);
+    height: 100vh;
+    position: relative;
+
+}
+.pinkOverlays{
+   background-color: rgba(221, 110, 127, 0.27);
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.ContentContainer{
+    position: absolute;
+    top: 0;
+background-color: rgba(0, 0, 0 , 0.5);
+padding: 0rem  3rem;
+}
+
+nav {
+    /*border: 2px solid green ;*/
+height: 20vh;
+
+}
+
+
+
+.UpperNavbarSection {
+/*border: 2px solid blue ;*/
+display: flex;
+height: 50%;
+}
+
+
+
+.UpperNavbarLeftSection{
+   /*border: 2px solid yellow;*/
+    width: 50%;
+}
+
+
+
+.NetflixLogo {
+width: 28%;
+
+}
+
+
+
+.UpperNavbarRightSection{
+   /*border: 2px solid pink;*/
+width: 100%;
+
+}
+
+
+.LanguageButtonContainer{
+    display: flex;
+   width: 2cm;
+    margin-top: .1cm;
+padding: 1rem 0.5rem;
+/*border: 1 px solid white;*/
+
+}
+
+
+.select_nativeElementStyles__1ewemfi0{
+    background: Transparent;
+    color: white;
+    padding: 0.4rem;
+    margin-bottom: 0.1cm;
+    margin-left: 12cm;
+    
+}
+
+
+.SignIn {
+background-color:white;
+outline: none;
+border: none;
+height: 2rem;
+padding: .2rem 0.6rem;
+border-radius: 10%;
+color: black;
+margin-top: 0.58cm;
+margin-left: 13cm;
+
+}
+
+
+.LowerNavbarSection{
+   /* border:  2px solid red;*/
+   height: 40%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    
+}
+.MenuList{
+   /* border: 2px solid green;*/
+   position: fixed;
+   z-index: 1000;
+    width: 35%;
+    height: 6vh;
+    display: flex;
+    backdrop-filter: blur(10px);
+    list-style: none;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+    background:rgba(0,0,0,0.4);
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.64);
+    box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.32);
+    
+}
+.MenuList li {
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+
+.BannerSection{
+/*border: 2px solid purple;*/
+height: 90vh;
+background-image: url(netflixBaclground\ Image.jpg);
+background-size:  100% 100%;
+border-radius: 20px;
+position: relative;
+
+
+}
+.Overlays{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(Transparent,rgb(0, 0, 0,5));
+}
+.BannerContainer{
+/*border:  2px solid red;*/
+
+color: white;
+height: 95%;
+width: 100%;
+position: absolute;
+bottom: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.BannerContainer h2{
+   /* border: 2px solid green;*/
+    font-size: 4rem;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.BannerContainer h4{
+    font-size: 1.5rem;
+    margin-bottom: 18px;
+
+}
+.BannerContainer p{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+.InputContainer{
+    margin-top: 1rem;
+   /* border: 2px solid green;*/
+    height: 4rem;
+width: 50%;
+display: flex;
+justify-content: space-between;
+
+}
+.emailInputBox{
+    width: 50%;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(225, 225, 225, 0.2);
+    border-radius: 50px;
+    padding:  1rem 2rem;
+    height: 90%;
+    outline: none;
+}
+
+.emailInputBox::placeholder {
+    color: white;
+    font-size: 1rem;
+}
+
+.Getstartedbutton{
+    width: 30%;
+    height: 90%;
+   
+    background-color: red;
+    font-size: 28px;
+    border: none;
+    color: white;
+    font-style: bold;
+    border-radius: 50px;
+    font-weight: 300;
+}
+.CorousalSelection {
+    margin-top: 7rem;
+   /* border: 2px solid red;*/
+}
+.crousalcardContainer, .plansContainer,.ReasonContainer
+  ,.faqCardsContainer {
+/*border: 2px solid blue;*/
+height: 100%;
+width: 85%;
+display: flex;
+border-radius: 20px;
+margin:  2rem auto;
+justify-content: space-evenly;
+}
+.crousalcardContainer span{
+    color: rgba(0,0,0,0.8);
+  -webkit-text-stroke: 0.125rem rgb(255,255,255);
+  text-shadow: 0 0 1.5rem rgba(0,0,0,0.5);
+  font-size: 4rem;
+}
+.trendingnow{
+    font-size: 40px;
+color: white;
+margin-left:6rem;
+}
+.crousalCard{
+    width: 12%;
+   /* border: 2px solid green;*/
+    height: 38vh;
+    position: relative;
+}
+.crousalNumberCotainer{
+    position: absolute;
+    left: -20px;
+}
+.crousalImageContainer{
+    width: 100%;
+    height: 100%;
+}
+.crousalImageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+
+.plancard,.Reasoncard {
+  /*  border: 2px solid white;*/
+    color: white;
+    height: 35vh;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    border: 1.5px solid rgba(225, 225, 225, 0.315);
+   
+}
+.plancard1 {
+    background: linear-gradient(149deg,#1c4072 6.96% ,#172B47 40.17% ,#120c1f 73.39%);
+}
+.plancard2 {
+    background: linear-gradient(149deg,#1D529D 6.96% ,#233371 40.17%,#120c1f 73.39%);
+}
+.plancard3{
+    background: linear-gradient(149deg,#792a95 6.96%,#38216C 40.17%,#120c1f 73.39%);
+}
+.plancard4{
+    background:linear-gradient(149deg, #922556 6.96%,#391945 40.17%,#120c1f 73.39% );
+}
+.PlanSelection h2,
+.Reasonsection h2,
+.faqSection h2 {
+
+ font-size: 30px;
+color: white;
+margin-left: 10rem;
+font-family: sans-serif;
+}
+.plancard h2 {
+    margin-left: 0;
+}
+.planCardLowerContainer h4{
+    margin-top: 70px;
+}
+.Premium {
+margin-bottom: 20px;
+}
+.Reasoncard{
+
+    background: #2b2b2b;
+    border: 2px solid rgb(43, 43, 43);
+    height: 30vh;
+    
+}
+.Reasoncard h2{
+    margin-left: 0;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.Reasoncard p{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.ReasonCardLowerContainer{
+    display: flex;
+   justify-content: end;
+}
+.ReasonCardLowerContainer svg {
+height: 50px;
+width: 50px;
+margin-top: 2.5rem;
+}
+.faqSection{
+    color: white;
+}
+
+.faqquestion, .faqAnswer{
+    padding: 2rem;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #2e2e2e;
+}
+.faqquestion{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqAnswer {
+    display: none;
+}
+
+.faqCard:hover {
+    cursor: pointer;
+}
+
+.faqquestion:hover + .faqAnswer {
+    display: block;
+    cursor: pointer;
+}
+.faqquestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;          /* Make it full width */
+    height: 80px;         /* Set specific height for the question container */
+    padding: 0 20px;      /* Add horizontal padding */
+    box-sizing: border-box; /* Include padding in dimensions */
+    background-color: #2D2D2D; /* Match Netflix dark background */
+    border-radius: 4px;    /* Slightly rounded corners */
+}
+
+.faqCard {
+    width: 1000px;         
+    margin: 0 auto;       
+    cursor: pointer;
+}
+
+.faqquestion span {
+    font-size: 1.5rem;    
+    font-weight: 500;     
+    color: white;
+}
+.faqCardsContainer {
+    flex-direction: column;
+}
+.GoodtoGo {
+    color: white;
+margin-left: 30%;
+margin-bottom: 1rem;
+}
+.GetStarted{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.number{
+    color: white ;
+    margin-left: 20%;
+    margin-top: 3.5rem;
+}
+
+.allThingscontainer {
+ 
+    width: 100%;
+}
+
+.Faqs {
+   
+    margin-left: 15%;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    font-size: 15px;
+}
+
+.Faqscontainer, .HelpCenter,.Account ,.Mediacentre {
+    margin-top: 2rem;
+
+    width: 13%;
+    margin-left: 3rem;
+
+}
+
+.HelpCenter {
+     
+    margin-top: 2rem; }
+
+    .EnglishButton{
+        margin-top: 5rem;
+        margin-left: 15rem;
+    }
+    .Netflixindia {
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 15rem;
+        margin-top: 5rem;
+    }
+
+
